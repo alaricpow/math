@@ -20,7 +20,7 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-#This program computes the argument and modulus of any complex number in the form a + bi, for real numbers a and b.
+#This program computes the argument and modulus of any complex number in the form a + bi, where a and b are real numbers.
 import math
 def main():
     print("This simple program helps you evaluate the argument and modulus of any complex number a + bi, where a and b are real numbers. Note that the argument is restricted to (-pi, pi].")
