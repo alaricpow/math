@@ -1,4 +1,4 @@
-#This tool allows you to compute basic probabilities that have to do with binomial distributions.
+#This tool allows you to compute basic probabilities related to binomial distributions with specified parameters.
 import math
 def main():
     while True:
