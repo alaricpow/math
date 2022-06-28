@@ -53,9 +53,9 @@ def main():
         temp1 = (1/(2*a))*(-b)
         temp = (1/(2*a))*(math.sqrt(4*a*c - b*b))
         if temp1 != 0 and temp != 0:
-            print(f"x = {temp1} + {temp}i, x = {temp1} - {temp}i")
+            print(f"x = {temp1} + ({temp})i, x = {temp1} - ({temp})i")
         elif temp1 == 0 and temp != 0:
-            print(f"x = {temp}i, x = - {temp}i")
+            print(f"x = {temp}i, x = - ({temp})i")
     if (b*b - 4*a*c) > 0:
         print("2 distinct real roots.")
         temp2 = (1/(2*a))*(-b + math.sqrt(b*b - 4*a*c))
