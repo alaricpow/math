@@ -60,10 +60,10 @@ def main():
         temp = (1/(2*a))*(math.sqrt(4*a*c - b*b))
         print(f"y-intercept: (0, {c})")
         if temp1 != 0 and temp != 0:
-            print(f"Solution to f(x) = 0: x = {temp1} + {temp}i, x = {temp1} - {temp}i")
+            print(f"Solution to f(x) = 0: x = {temp1} + ({temp})i, x = {temp1} - ({temp})i")
         elif temp1 == 0 and temp != 0:
-            print(f"Solution to f(x) = 0: x = {temp}i, x = - {temp}i")
-        print(f"Completed square form is {a}(x - ({vert1}))^2 + {stat1}")
+            print(f"Solution to f(x) = 0: x = {temp}i, x = - ({temp})i")
+        print(f"Completed square form is {a}(x - ({vert1}))^2 + ({stat1})")
     if (b*b - 4*a*c) > 0:
         print("The graph of y = f(x) has two x-intercepts and one y-intercept.")
         vert2 = -b/(2*a)
@@ -90,6 +90,6 @@ def main():
         print(f"x-intercept: ({temp4}, 0)")
         print(f"y-intercept: (0, {c})")
         print(f"Solution to f(x) = 0: x = {temp4}")
-        print(f"Completed square form is {a}(x - ({vert3}))^2 + {stat3}")
+        print(f"Completed square form is {a}(x - ({vert3}))^2 + ({stat3})")
    
 main()
