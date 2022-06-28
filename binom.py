@@ -20,7 +20,7 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-#This tool allows you to compute basic probabilities related to binomial distributions with specified parameters.
+#This program allows you to compute basic probabilities related to binomial distributions with specified parameters.
 import math
 def main():
     while True:
